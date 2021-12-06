@@ -153,9 +153,13 @@ public class Runner {
             String[] instruction = line.split(" ");
             String action = instruction[0];
             List<String> instructions = removeAction(instruction);
+            // Use switch instead if.
+            
+            // compare static string to action. not the other way around.
             if(action.equals("CURRENT_PORTFOLIO")){
                 
                 //Getting all the funds to be in user portfolio
+                // Funds -> funds
                 List<Fund> Funds = getUserFunds(instructions, allFunds);
 
                 //Allocating the Funds to user portfolio
