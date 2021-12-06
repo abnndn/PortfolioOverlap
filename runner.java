@@ -18,6 +18,8 @@ public class Runner {
     // Always create variables final when you don't expect to update.
     // Never create public methods unless you plan to use them in another class.
     public  String URL = "https://geektrust.s3.ap-southeast-1.amazonaws.com/portfolio-overlap/stock_data.json";
+    
+    // Haven't handled this usecase.
     public  String NOT_FOUND = "FUND_NOT_FOUND";
 
     public  int getFundNo(String fund_name, List<Fund> funds ){
@@ -62,6 +64,8 @@ public class Runner {
         return names;
     }
 
+    // Global variable for allFunds
+    // Map for all funds <string, list>
     public  List<Fund> getUserFunds(List<String> instruction, List<Fund> allFunds){
         List<Fund> userFunds = new ArrayList<>();
         for(String word:instruction){
