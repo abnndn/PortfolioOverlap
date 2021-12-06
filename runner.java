@@ -16,6 +16,7 @@ import org.json.JSONException;
 
 public class Runner {
     // Always create variables final when you don't expect to update.
+    // Never create public methods unless you plan to use them in another class.
     public  String URL = "https://geektrust.s3.ap-southeast-1.amazonaws.com/portfolio-overlap/stock_data.json";
     public  String NOT_FOUND = "FUND_NOT_FOUND";
 
