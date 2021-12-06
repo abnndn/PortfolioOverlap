@@ -128,6 +128,7 @@ public class Runner {
         }
     }
 
+    // doesn't need access to allFunds.
     public  void findOverlap(String fund_name, List<Fund> userFunds, List<Fund> allFunds){
         List<String> fund_stocks =  new ArrayList<>();
         
@@ -141,6 +142,7 @@ public class Runner {
             //Checking whether the fund_name is a valid and available fund.
             System.out.println(NOT_FOUND);
         }
+        // why's a new object added
         Fund fund = new Fund(fund_name, fund_stocks);
         printOverlap(fund, userFunds);
         
