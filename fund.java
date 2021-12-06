@@ -4,6 +4,9 @@ import java.util.List;
 
 public class Fund {
    
+    // Need add stock method.
+    // Create method parameters as final.
+    
     private String name;
     private List<String> stocks;
     public Fund(String name, List<String> stocks) {
@@ -25,8 +28,4 @@ public class Fund {
     public void setStocks(List<String> stocks) {
         this.stocks = stocks;
     }
-   
-   // Need add stock method.
-   // Create method parameters as final
-    
 }
