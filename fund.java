@@ -25,5 +25,8 @@ public class Fund {
     public void setStocks(List<String> stocks) {
         this.stocks = stocks;
     }
+   
+   // Need add stock method.
+   // Create method variables as final
     
 }
