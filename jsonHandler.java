@@ -19,6 +19,8 @@ import org.json.JSONObject;
 
 public class JsonHandler {
     
+    // make this class static
+    // make method private
     public  String getJSON(String url) {
         HttpsURLConnection con = null;
         try {
