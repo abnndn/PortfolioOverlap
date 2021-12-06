@@ -187,6 +187,8 @@ public class Runner {
         return lines;
     }
 
+    
+    // only main method here. others should have it's own class.
     public static void main(String[] args) throws IOException, JSONException  {
         Runner runner = new Runner();
         String file_location = args[0];
