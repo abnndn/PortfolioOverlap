@@ -27,6 +27,6 @@ public class Fund {
     }
    
    // Need add stock method.
-   // Create method variables as final
+   // Create method parameters as final
     
 }
