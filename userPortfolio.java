@@ -4,6 +4,11 @@ import java.util.List;
 
 public class userPortfolio  {
 
+    // Classname should start with capital letter
+    // always use `this.`
+    // Funds -> funds
+    // Add funds method.
+    // Need method to add a new fund.
     private List<Fund> Funds;
 
     public userPortfolio(List<Fund> funds) {
@@ -20,7 +25,5 @@ public class userPortfolio  {
     public userPortfolio(){
         
     }
-    
-    
 }
 
