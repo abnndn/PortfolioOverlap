@@ -84,6 +84,8 @@ public class Runner {
         return allFunds;
     }
 
+    // Create stockName list as set instead of list.
+    // Will calculate incorrect overlap percentage if you add same stock multiple times to a fund.
     public  List<Fund> updateUserPortfolio(String fund_name, String stock_name, List<Fund> userFunds){
         int index = getFundNo(fund_name, userFunds);
         if(index != -1){
